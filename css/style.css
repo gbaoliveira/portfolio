@@ -148,4 +148,5 @@ hr{
 
 @media only screen and (max-width: 1495px){
     h2{font-size: 20px;}
+    icon{height: auto;width: 200px;}
 }
