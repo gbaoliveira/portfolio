@@ -1,0 +1,147 @@
+html, body{
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: #d64f4f;  
+    background-image: linear-gradient(-225deg, #AC32E4 0%, #7918F2 48%, #4801FF 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+section{
+    flex: 1 0 auto;
+}
+
+#text-logo{
+    margin-top: 100px;
+    color: white;
+    font-family: 'Fredoka One', cursive;
+    font-size: 27px;
+    animation: fadein 1.5s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@keyframes slide-out {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(0%); }
+}
+
+.pfp{
+    height: 300px;
+    width: auto;
+    animation: fadein 2s;
+}
+
+.planejamento{
+    animation: fadein 1s;
+}
+
+.neco-dance{
+    animation: fadein 1s;
+}
+
+.navbar-brand{
+    font-family: 'Concert One', cursive;
+}
+
+#bottom{
+    flex-shrink: 0;
+    padding: 30px;
+    background-color: black;
+}
+
+.icon{
+    margin-left: 150px;
+    margin-bottom: 50px;
+    float: left;
+
+}
+
+h2, .icon{
+    animation: slide-out 2s;
+}
+
+h1{
+    font-family: 'Fredoka One', cursive;
+    color: white;
+    text-align: center;
+}
+
+h2{
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    float: left;
+    margin-left: 40px;
+    font-size: 25px;
+}
+
+footer{
+    align-items: center;
+}
+
+.trabalhos{
+    margin-top: 80px;
+    text-align: center;
+    font-size: 35px;
+    text-decoration: underline wavy rgb(179, 255, 0) 2px;
+    font-family: 'Concert One', cursive;
+    color: white;
+}
+
+.materia{
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Concert One', cursive;
+    color: rgb(118, 255, 27);
+}
+
+.container-atv{
+    align-items: center;
+    align-content: center;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    /* border-style: solid;
+    border-color: rgb(118, 255, 27);
+    border-radius: 5px; */
+}
+
+.atividade{
+    font-family: 'Fredoka One', cursive;
+    color: white;
+    font-size: 30px;
+}
+
+.atv-link{
+    font-size: 30px;
+    color: rgb(70, 230, 21);
+}
+
+.container-atv, .atividade, .materia, .trabalhos{
+    animation: fadein 1s;
+    text-align: center;
+    align-items: center;
+}
+
+.autoria-txt{
+    font-size: 20px;
+    color: white ;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+hr{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 10px;
+    border-radius: 3px;
+    color: green;
+}
