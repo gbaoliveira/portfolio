@@ -60,10 +60,7 @@ section{
 }
 
 .icon{
-    margin-left: 150px;
     margin-bottom: 50px;
-    float: left;
-
 }
 
 h2, .icon{
@@ -79,9 +76,6 @@ h1{
 h2{
     color: white;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    float: left;
-    margin-left: 40px;
-    font-size: 25px;
 }
 
 footer{
@@ -146,7 +140,3 @@ hr{
     color: green;
 }
 
-@media only screen and (max-width: 1495px){
-    h2{font-size: 20px;}
-    .icon{height: auto;width: 200px;}
-}
