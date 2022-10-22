@@ -146,6 +146,6 @@ hr{
     color: green;
 }
 
-@media only screen and (min-width: 1495px){
+@media only screen and (max-width: 1495px){
     h2{font-size: 10px;}
 }
